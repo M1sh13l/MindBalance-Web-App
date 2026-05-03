@@ -89,7 +89,7 @@ http://localhost/MindBalance-Web-App
 ![Tips](screenshots/tips.png)
 
 ### Admin Dashboard
-![Admin](screenshots/admin.png)
+![Admin](screenshots/admin.jpg)
 
 ---
 
