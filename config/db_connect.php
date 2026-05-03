@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db   = 'mindbalance_db';
-$user = 'M1sh13l';
-$pass = 'M@sh13l_26q';
+$user = 'your_username';
+$pass = 'your_password';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
