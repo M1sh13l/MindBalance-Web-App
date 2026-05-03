@@ -1,71 +1,106 @@
-# MindBalance Web Application
+# MindBalance – Mental Health Tracking Web App
 
 ## Overview
-MindBalance is a full-stack web application designed to help users track their mental health and daily habits in a structured and secure environment.
+MindBalance is a full-stack web application designed to help users track their mental health, monitor mood patterns, and access wellness resources in a secure and structured environment.
 
 ---
 
 ## Features
-- User authentication (login & registration)
-- Session management
-- Mood tracking system
-- Habit tracking system
-- Secure data storage using MySQL
-- Input validation and error handling
+- User authentication system (register/login)
+- Mood tracking with history logs
+- Edit and delete mood entries
+- Save favorite wellness tips
+- Admin dashboard (manage users, tips, logs)
+- Contact system with specialist recommendations
+- Mental health conditions information page
+- Dark mode support
 
 ---
 
 ## Technologies Used
 - PHP
-- MySQL
-- HTML5
-- CSS3
-- JavaScript
+- MySQL / MariaDB
+- HTML / CSS / JavaScript
+- Bootstrap 5
 
 ---
 
 ## Project Structure
 ```
-assets/ → CSS, JS, images  
-includes/ → reusable backend components  
-pages/ → main application pages  
-database/ → SQL schema  
-screenshots/ → UI previews  
+assets/        → images  
+database/      → SQL file  
+screenshots/   → UI previews  
+*.php          → application pages  
+styles.css     → styling  
+```
+
+---
+
+## Database
+The database file is included:
+
+```
+database/mindbalance_db.sql
+```
+
+---
+
+## How to Run
+
+1. Install XAMPP (or any PHP server)
+2. Move project to:
+
+```
+htdocs/
+```
+
+3. Start Apache & MySQL
+4. Open phpMyAdmin
+5. Create database:
+
+```
+mindbalance_db
+```
+
+6. Import:
+
+```
+database/mindbalance_db.sql
+```
+
+7. Update `db_connect.php` with your credentials
+8. Open:
+
+```
+http://localhost/MindBalance-Web-App
 ```
 
 ---
 
 ## Screenshots
 
-### Login Page
-![Login](screenshots/login.png)
+### Home Page
+![Home](screenshots/home.png)
 
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
+### Mood Tracker
+![Tracker](screenshots/tracker.png)
 
-### Habit Tracking
-![Habits](screenshots/habits.png)
+### Wellness Tips
+![Tips](screenshots/tips.png)
 
----
-
-## How to Run
-
-1. Clone the repository
-2. Move project to `htdocs` (XAMPP) or server directory
-3. Start Apache & MySQL
-4. Import `database/schema.sql`
-5. Open `localhost/MindBalance-Web-App`
+### Admin Dashboard
+![Admin](screenshots/admin.png)
 
 ---
 
 ## Future Improvements
 - AI-based mood analysis
-- Mobile responsive design
 - Notifications system
+- Mobile optimization
 
 ---
 
-## Author
-Mashael Saeed
-Sarah Elshiaty 
-Seifeldin Elshiaty
+## Authors
+- Mashael Saeed  
+- Sarah Elshiaty  
+- Seifeldin Elshiaty
